@@ -72,3 +72,5 @@ flutter test
 Declared in `pubspec.yaml`:
 - `flutter_bloc`, `equatable`, `http`, `cached_network_image`, `google_fonts`
 
+### API
+- GET `https://picsum.photos/v2/list?page=1&limit=10`
