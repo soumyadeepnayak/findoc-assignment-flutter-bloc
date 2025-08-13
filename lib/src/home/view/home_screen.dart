@@ -70,12 +70,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    image.author,
+                    'This task is done by Soumyadeep Nayak',
                     style: GoogleFonts.montserrat(fontWeight: FontWeight.w600, fontSize: 16, color: Colors.black87),
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    'Photo ID: ${image.id}',
+                    'The Photo Number is : ${index + 1}',
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                     style: GoogleFonts.montserrat(fontWeight: FontWeight.w400, color: Colors.grey.shade700),
